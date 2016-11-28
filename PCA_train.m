@@ -32,6 +32,6 @@ validate = dir(PCA_testpath1);
 %% Compare ED1 and ED2 for get pca based crack patch prediction
 [Prediction] = crkpredictionpca( Euclidean_dist2_min,Euclidean_dist_mean);
 
-%% CLear variable
+%% CLear variables 
 clear avg_CrkImg_mean eigen_vect_orig num_of_trnCrkImg Projections I Train_projtn num_of_Crk_tstImg tst_diff1
 clear  Euclidean_dist_mean Test_projection2 Euclidean_dist2_min Euclidean_dist2
